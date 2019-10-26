@@ -1,3 +1,5 @@
+package xyz.testalorenzo.fizzbuzz;
+
 import java.util.ArrayList;
 import java.util.List;
 
