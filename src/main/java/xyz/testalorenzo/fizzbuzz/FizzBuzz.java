@@ -15,7 +15,7 @@ class FizzBuzz {
 
     List<String> play(int num) {
         List<String> result = new ArrayList<>();
-        for (int i = 1; i <= num; i++)
+        for (int i = 1; i <= num && i >= 1; i++)
         {
             if (((i % FIZZ) == 0) && ((i % BUZZ) == 0)) // Is it a multiple of fizz & buzz?
                 result.add("fizzbuzz");
