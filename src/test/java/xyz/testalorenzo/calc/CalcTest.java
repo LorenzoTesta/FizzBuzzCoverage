@@ -10,10 +10,6 @@ class CalcTest {
     void sum() {
         int result = Calc.sum(1, 2);
         assertEquals(3, result);
-
-        // Integer.MAX_VALUE = 2147483647
-//        result = Calc.sum(Integer.MAX_VALUE, 1);
-//        assertEquals(?, result);
     }
 
     @Test
